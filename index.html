@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sortable</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <input type="text" class="search" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+      <div class="pages">
+        <div class="pagination"></div>
+        <div class="view-selector">
+            <label>Results per page</label>
+            <select id="page-view">
+            <option value="10">10</option>
+            <option value="20" selected="selected">20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="563">All</option>
+         </select>
+        </div>
+    </header>
+    <main id="main">
+    </main>
+    <table id="myTable">
+      <thead>
+        <th>Icon</th>
+        <th data-filter-value="name">Name</th>
+        <th data-filter-value="fullname">Full Name</th>
+        <th data-filter-value="power" >Powerstats</th>
+        <th data-filter-value="race" >Race</th>
+        <th data-filter-value="gender" >Gender</th>
+        <th data-filter-value="h">Height</th>
+        <th data-filter-value="w">Weight</th>
+        <th data-filter-value="placeOfbirth">Place Of Birth</th>
+        <th data-filter-value="al">Alignement</th>
+      </thead>
+      <tbody id="table_body">
+      
+      </tbody>
+    </table>
+    <script src="main.js"></script>
+  </body>
+</html>
+
