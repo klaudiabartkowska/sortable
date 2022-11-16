@@ -17,13 +17,13 @@ body {
 
 header {
   background: url(https://images.pexels.com/photos/7524996/pexels-photo-7524996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: 100%;
   padding: 3.5rem 1em;
-  background-size: cover;
+  background-size: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center; 
   font-size: 18px;
-  
 }
 
 
